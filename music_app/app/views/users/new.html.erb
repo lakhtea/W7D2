@@ -1,0 +1,9 @@
+<h1>Sign Up</h1>
+
+<form class="ui form" action="<%= users_url %>" method="POST">
+    <input type="text" name=user[email] value="<%= @user.email %>" placeholder="Email">
+    
+    <input type="password" name=user[password] value="" placeholder="Password">
+
+    <input class="ui button" type="submit" value="Sign-Up">
+</form>
